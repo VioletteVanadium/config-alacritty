@@ -1,0 +1,20 @@
+import = ["/home/deo/.config/alacritty/catppuccin-mocha.toml"]
+
+# [[commands]]
+# command = "alacritty --working-directory=\"$(pwd)\" & disown"
+# name = "SpawnNewInstance"
+
+[font]
+size = 8
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control"
+
+[window]
+decorations = "full"
